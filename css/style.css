@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    width: 95%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 2.5%;
+    z-index: 9999;
+}
+
+nav ul{
+    display: flex;
+    /* flex flow éa forma abreviada de flex direction (define como os filhos serão exibidos , em linhas ou colunas) e flex wrap define se os filhos quebrarão de linha caso não caiba na tela */
+    flex-flow: row wrap;
+    /* altera o alinhamento horizontal dos elementos filho */
+    justify-content: left;
+    margin-top: 70px;
+}
+
+nav ul#esquerda{
+    float: left;
+}
+
+nav ul#direita{
+    float: right;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav ul li a{
+    color: rgba(0, 0, 0, 0.767);
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 100px;
+    font-size: 80%;
+}
+
+nav ul li a#criar-conta{
+    border: 1px solid rgba(122, 81, 57, 0.767);
+    padding: 9px 29px;
+}
+
+nav ul li a:hover{
+    background-color: #f28705;
+    transition-duration: 0.8s;
+}
+
+/* quando o icone for do ionic , para aumentar ou diminuir seu tamanho utilize width e height */
+
+nav ion-icon{
+    width: 45px;
+    height: 45px;
+    color: white;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+
+nav ion-icon:hover{
+    color: #f28705;
+    cursor: pointer;
+}
