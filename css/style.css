@@ -35,7 +35,7 @@ nav ul li{
 }
 
 nav ul li a{
-    color: rgba(0, 0, 0, 0.767);
+    color: rgba(138, 96, 19, 0.767);
     text-decoration: none;
     padding: 10px 20px;
     border-radius: 100px;
@@ -66,3 +66,73 @@ nav ion-icon:hover{
     color: #f28705;
     cursor: pointer;
 }
+
+section{
+    padding: 55px 0 80px;
+
+}
+
+header{
+    position: relative;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0)),url(../img/secao08-background-capa.jpg) ;
+    /* linear gradiente é quando da fundo com variacoes de cores */
+    width: 100%;
+    height: 1024px;
+    background-size: cover;
+    background-position: center center;
+    /* 2 center pq pega horizontal e vertical */
+    border-top: 1px solid #43ce21;
+}
+
+
+header div#chamada{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    top: 30%;
+    left: auto;
+}
+
+
+/* SEÇÃO FINAL DE SEMANA */
+
+section#final-de-semana{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+div#final-semana-esquerda, div#final-semana-direita{
+    position: relative;
+    width: 15%;
+}
+
+div#final-semana-centro{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    /* alinha os elementos filhos na horizontal */
+    justify-content: flex-start;
+    /* alinha os elementos filhos na vertical */
+    align-items: center;
+
+}
+
+div#pontos-chaves-mestre{
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+}
+
+div.pontos-chaves{
+    text-align: center;
+    width: 25%;
+}
+
+
+

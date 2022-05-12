@@ -1,0 +1,63 @@
+* {
+    font-size: 16px;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Fredericka the Great', cursive;
+    text-align: center;
+    text-transform: uppercase;
+    /* text transform uppercase=deixa todas letras maiusculas */
+    color: crimson;
+}
+
+h4,
+h5,
+h6 {
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    color: gold;
+}
+
+h1 {
+    font-size: 600%;
+    font-weight: 200;
+
+}
+
+h2 {
+    font-size: 400%;
+    font-weight: 200;
+}
+
+p,li,a {
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(105, 105, 105);
+}
+
+/* ELEMENTOS DO HEADER */
+
+header div#chamada h1 {
+    color: #fff;
+    text-shadow: 4px 6px 10px rgb(0, 0, 0);
+    /* TEXT SHADOWN=(deslocamento X) (deslocamento Y) (raio de desfoque) (cor) */
+    margin-bottom: 55px;
+}
+
+header div#chamada h4 {
+    font-size: 250%;
+    text-shadow: 4px 6px 10px #000;
+    margin-bottom: 55px;
+}
+
+header div#chamada a {
+    font-size: 110%;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    background: linear-gradient(rgba(7, 140, 49, 55) 0%, rgba(6, 89, 2, 35) 100%);
+    padding: 20px 80px;
+    border-radius: 50px;
+    display: inline-block;
+}
