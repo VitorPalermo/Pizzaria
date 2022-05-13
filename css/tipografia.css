@@ -31,9 +31,22 @@ h2 {
     font-weight: 200;
 }
 
+/* after permite que qualquer conteudo seja adicionado depois da tag onde ele for aplicado */
+h2::after{
+    display: block;
+    background-color: rgb(17, 182, 17);
+    height: 5px;
+    width: 100px;
+    margin: 40px auto 30px;
+    content: "";
+}
+
+
+
 p,li,a {
     font-family: 'Open Sans', sans-serif;
-    color: rgb(105, 105, 105);
+    color: rgb(243, 60, 60);
+    
 }
 
 /* ELEMENTOS DO HEADER */
@@ -60,4 +73,18 @@ header div#chamada a {
     padding: 20px 80px;
     border-radius: 50px;
     display: inline-block;
+}
+
+/* SEÇÃO DOMINGO PERFEITO */
+div.pontos-chaves h4{
+    color: black;
+}
+
+div.pontos-chaves h4:after{
+    display: block;
+    background-color: forestgreen;
+    height: 5px;
+    width: 30%;
+    margin:  20px auto 10px;
+    content: "";
 }
