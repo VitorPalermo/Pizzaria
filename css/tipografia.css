@@ -88,3 +88,21 @@ div.pontos-chaves h4:after{
     margin:  20px auto 10px;
     content: "";
 }
+
+p, li, a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p.destaque{
+    font-size: 130%;
+    line-height: 1.8;
+    font-weight: 300;
+    text-align: center;
+    width: 60%;
+}
+
+/* Elementos do Header */
+
+header div#chamada h1{
+    color: #fff;
+}
