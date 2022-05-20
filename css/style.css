@@ -265,19 +265,23 @@ section#testemunha {
             rgba(255, 255, 255, 1)),
         url(../img/secao11-background-secao-depoimento.png);
     display: flex;
+    flex-direction: column;
     flex-wrap: nowrap;
     justify-content: flex-start;
     align-items: center;
-    flex-direction: column;
 }
 
 div#testemunha-mestre {
+    display: flex;
     width: 100%;
     height: 300px;
+    margin-top: 90px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
 }
 
-div#testemunha-esquerda,
-div#testemunha-direita {
+div#testemunha-esquerda,div#testemunha-direita {
     width: 15%;
     height: 300px;
     cursor: pointer;
@@ -314,6 +318,8 @@ section#testemunha div#testemunha-centro div#testemunhos ul {
     width: 300px;
     background: #fff;
     padding: 30px;
+    margin: 50px 15px;
+    border-radius: 20px;
     border: 1px solid rgb(114, 114, 114);
     text-align: center;
 }
@@ -339,8 +345,84 @@ section#testemunha div#testemunha-centro div#testemunhos ul p {
 section#testemunha div#testemunha-centro div#testemunhos ul img {
     width: 40%;
     border-radius: 100%;
-    margin-top: 80px;
+    margin-top: -80px;
     margin-bottom: 20px;
     border: 5px solid red;
     
+}
+
+/* SEÇÃO TRANSIÇÃO */
+
+div#transicao-testemunha-plano{
+    width: 100%;
+    height: 280px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+div#transicao-testemunha-plano div#decoracao1{
+    width: 30%;
+    height: 100%;
+    background-image: url(..//img/secao13-tomate-manjericao-alho.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+div#transicao-testemunha-plano div#decoracao2{
+    width: 30%;
+    height: 100%;
+    background-image: url(..//img/secao13-azeite.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+
+}
+
+div#transicao-testemunha-plano div#decoracao3{
+    width: 30%;
+    height: 100%;
+    background-image: url(..//img/secao13-detalhe-tomate.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+/* SECAO PLANOS */
+
+section#plano-principal{
+    width: 100%;
+    height: 800px;
+}
+
+div#planos-janela{
+    width: 80%;
+    margin: 30px auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+div.planos{
+    width: 250px;
+    height: 450;
+    margin: 80px 30px;
+}
+
+div.planos-top{
+    width: 100%;
+    height: 350px;
+    background-color: #fff;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    text-align: center;
+    box-shadow: 2px 2px 3px #ccc;
+}
+
+div.planos-bottom{
+    width: 100%;
+    height: 100px;
+    background-color: #747474;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 2px 2px 3px rgb(0, 0, 0);
+    cursor: pointer;
 }
