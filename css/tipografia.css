@@ -171,3 +171,10 @@ section#plano-principal- ul li{
     line-height: 2;
     text-decoration: none;
 }
+section#plano-pricipal div.planos-bottom p{
+    color: rgb(43, 236, 53);
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 15px;
+}

@@ -426,3 +426,80 @@ div.planos-bottom{
     box-shadow: 2px 2px 3px rgb(0, 0, 0);
     cursor: pointer;
 }
+
+/* FOOTER */
+
+div#transicao-plano-rodape{
+    width: 100%;
+    height: 36px;
+    background-image: linear-gradient()url(../img/secao15-mesa-xadrez-clara.png);
+    background-repeat: no-repeat;
+    margin-top: 100px;
+}
+
+footer{
+    padding-top: 36px;
+    padding-left: 36px;
+    width: 100%;
+    height: 500px;
+    background-image: url(../img/secao15-mesa-xadrez.png);
+    background-repeat: repeat;
+    border-bottom: 10px solid #515151;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+footer div#mapa{
+    width: 35%;
+    height: 390px;
+    background-color: #fff;
+    box-shadow: 0 ;
+}
+
+footer div#info{
+    width: 30%;
+    height: 390px;
+    background-color: red;
+    box-shadow: 0 3px 10px rgb(97, 97, 97);
+}
+
+footer div#redes-sociais{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    /* floxflow=row wrap= define que os elementos serão organizados em linha e que quebrarão de linha quando nao caber na tela */
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    /* justify-content: space-evenly=aplica um espaçamento  */
+}
+
+footer div#redes-sociais ion-icon{
+    color: #fff;
+    height: 100%;
+    width: 20%;
+    cursor: pointer;
+}
+
+footer div#redes-sociais ion-icon:hover{
+    color: #000000;
+}
+
+footer div#pizza-rodape-decoracao{
+    width: 300px;
+    height: 390px;
+    margin-top: -100px;
+    background-image: url(../img/secao15-pizza-rodape.png);
+    background-repeat: no-repeat;
+}
+
+footer div#info ul{
+    margin-left: 25px;
+    margin-bottom: 120px;
+}
+
+footer div#info li{
+    list-style: none;
+    color: rgb(0, 0, 0);
+    margin-bottom: 5px;
+}
