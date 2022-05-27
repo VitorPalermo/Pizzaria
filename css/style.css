@@ -26,9 +26,15 @@ nav ul#esquerda {
     float: left;
 }
 
+nav ul#icone-menu-mobile {
+    float: right;
+    display: none;
+}
+
 nav ul#direita {
     float: right;
 }
+
 
 nav ul li {
     list-style: none;
@@ -281,7 +287,8 @@ div#testemunha-mestre {
     justify-content: space-between;
 }
 
-div#testemunha-esquerda,div#testemunha-direita {
+div#testemunha-esquerda,
+div#testemunha-direita {
     width: 15%;
     height: 300px;
     cursor: pointer;
@@ -348,12 +355,12 @@ section#testemunha div#testemunha-centro div#testemunhos ul img {
     margin-top: -80px;
     margin-bottom: 20px;
     border: 5px solid red;
-    
+
 }
 
 /* SEÇÃO TRANSIÇÃO */
 
-div#transicao-testemunha-plano{
+div#transicao-testemunha-plano {
     width: 100%;
     height: 280px;
     display: flex;
@@ -361,7 +368,7 @@ div#transicao-testemunha-plano{
     justify-content: space-between;
 }
 
-div#transicao-testemunha-plano div#decoracao1{
+div#transicao-testemunha-plano div#decoracao1 {
     width: 30%;
     height: 100%;
     background-image: url(..//img/secao13-tomate-manjericao-alho.jpg);
@@ -369,7 +376,7 @@ div#transicao-testemunha-plano div#decoracao1{
     background-position: top center;
 }
 
-div#transicao-testemunha-plano div#decoracao2{
+div#transicao-testemunha-plano div#decoracao2 {
     width: 30%;
     height: 100%;
     background-image: url(..//img/secao13-azeite.jpg);
@@ -378,7 +385,7 @@ div#transicao-testemunha-plano div#decoracao2{
 
 }
 
-div#transicao-testemunha-plano div#decoracao3{
+div#transicao-testemunha-plano div#decoracao3 {
     width: 30%;
     height: 100%;
     background-image: url(..//img/secao13-detalhe-tomate.jpg);
@@ -388,12 +395,12 @@ div#transicao-testemunha-plano div#decoracao3{
 
 /* SECAO PLANOS */
 
-section#plano-principal{
+section#plano-principal {
     width: 100%;
     height: 800px;
 }
 
-div#planos-janela{
+div#planos-janela {
     width: 80%;
     margin: 30px auto;
     display: flex;
@@ -401,13 +408,13 @@ div#planos-janela{
     justify-content: center;
 }
 
-div.planos{
+div.planos {
     width: 250px;
     height: 450;
     margin: 80px 30px;
 }
 
-div.planos-top{
+div.planos-top {
     width: 100%;
     height: 350px;
     background-color: #fff;
@@ -417,7 +424,7 @@ div.planos-top{
     box-shadow: 2px 2px 3px #ccc;
 }
 
-div.planos-bottom{
+div.planos-bottom {
     width: 100%;
     height: 100px;
     background-color: #747474;
@@ -429,7 +436,7 @@ div.planos-bottom{
 
 /* FOOTER */
 
-div#transicao-plano-rodape{
+div#transicao-plano-rodape {
     width: 100%;
     height: 36px;
     background-image: linear-gradient()url(../img/secao15-mesa-xadrez-clara.png);
@@ -437,7 +444,7 @@ div#transicao-plano-rodape{
     margin-top: 100px;
 }
 
-footer{
+footer {
     padding-top: 36px;
     padding-left: 36px;
     width: 100%;
@@ -450,21 +457,21 @@ footer{
     justify-content: space-between;
 }
 
-footer div#mapa{
+footer div#mapa {
     width: 35%;
     height: 390px;
     background-color: #fff;
-    box-shadow: 0 ;
+    box-shadow: 0;
 }
 
-footer div#info{
+footer div#info {
     width: 30%;
     height: 390px;
     background-color: red;
     box-shadow: 0 3px 10px rgb(97, 97, 97);
 }
 
-footer div#redes-sociais{
+footer div#redes-sociais {
     width: 100%;
     height: 70px;
     display: flex;
@@ -474,18 +481,18 @@ footer div#redes-sociais{
     /* justify-content: space-evenly=aplica um espaçamento  */
 }
 
-footer div#redes-sociais ion-icon{
+footer div#redes-sociais ion-icon {
     color: #fff;
     height: 100%;
     width: 20%;
     cursor: pointer;
 }
 
-footer div#redes-sociais ion-icon:hover{
+footer div#redes-sociais ion-icon:hover {
     color: #000000;
 }
 
-footer div#pizza-rodape-decoracao{
+footer div#pizza-rodape-decoracao {
     width: 300px;
     height: 390px;
     margin-top: -100px;
@@ -493,12 +500,12 @@ footer div#pizza-rodape-decoracao{
     background-repeat: no-repeat;
 }
 
-footer div#info ul{
+footer div#info ul {
     margin-left: 25px;
     margin-bottom: 120px;
 }
 
-footer div#info li{
+footer div#info li {
     list-style: none;
     color: rgb(0, 0, 0);
     margin-bottom: 5px;

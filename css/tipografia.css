@@ -55,7 +55,11 @@ header div#chamada h1 {
     color: #fff;
     text-shadow: 4px 6px 10px rgb(0, 0, 0);
     /* TEXT SHADOWN=(deslocamento X) (deslocamento Y) (raio de desfoque) (cor) */
-    margin-bottom: 55px;
+    animation-name: headerh1-moverdireita;
+    /*  */
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    
 }
 
 header div#chamada h4 {

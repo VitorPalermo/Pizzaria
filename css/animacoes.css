@@ -1,0 +1,16 @@
+@keyframes headerh1-moverdireita{
+    0%{
+        opacity: 0;
+        /* transform permite animar um elemento na tela/ translatex altera a posicao do elemento no eixo x */
+        transform: translatex(-75px);
+    }
+
+    70%{
+        transform: translatex(20px);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translatex(0);
+    }
+}
